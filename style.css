@@ -78,20 +78,50 @@ body{
     background-color: skyblue;
 }
 
-
 .card2{
     grid-area: card2;
-    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.card2>.line2{
+    /* margin: -20px -10px; */
+    top: 0;
+    height: 5px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
     background-color: salmon;
 }
 
 .card3{
     grid-area: card3;
-    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.card3>.line3{
+    /* margin: -20px -10px; */
+    top: 0;
+    height: 5px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
     background-color: seagreen;
 }
 
 .card4{
     grid-area: card4;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.card4>.line4{
+    /* margin: -20px -10px; */
+    top: 0;
+    height: 5px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
     background-color: sandybrown;
 }
