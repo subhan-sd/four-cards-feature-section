@@ -10,10 +10,11 @@ body{
     width: 85%;
     margin : 150px auto;
     background-color: #fafafa;
+    height:550px;
 }
 
 .light{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 300;
     color: #b3b3b3;
     text-align: center;
@@ -21,6 +22,7 @@ body{
 }
 
 .bold{
+    margin-top: -5px;
     font-size: 20px;
     font-weight: 500;
     color: #333;
@@ -35,7 +37,7 @@ body{
         color: #b3b3b3;
         /* font-style: italic; */
         text-align: center;
-        width: 27%;
+        width: 35%;
         margin: auto;
         margin-bottom: 30px;
 }
@@ -48,7 +50,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "card1 card2 card4"
                          "card1 card3 card4";
-    grid-gap: 10px 20px;
+    grid-gap: 20px 20px;
 }
 
 .detail-card{
@@ -67,7 +69,8 @@ body{
 }
 
 .card1>.isi{
-    height: auto;
+    box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
+    margin-top: 40%;
     background-color: #fff;
     border-radius: 3px;
 }
@@ -82,6 +85,7 @@ body{
 }
 
 .card2{
+    box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
     grid-area: card2;
     background-color: #fff;
     border-radius: 3px;
@@ -98,6 +102,7 @@ body{
 }
 
 .card3{
+    box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
     grid-area: card3;
     background-color: #fff;
     border-radius: 3px;
@@ -115,12 +120,18 @@ body{
 
 .card4{
     grid-area: card4;
+    
+}
+
+.card4>.isi{
+    box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
+    margin-top: 40%;
     background-color: #fff;
     border-radius: 3px;
 }
 
 
-.card4>.line4{
+.isi>.line4{
     /* margin: -20px -10px; */
     top: 0;
     height: 5px;
@@ -131,7 +142,7 @@ body{
 
 .icon img{
     /* float: right; */
-    margin: 20px 0 20px 0;
-    height: 60px;
-    width: 60px;
+    margin: 10px 0 10px 0;
+    height: 40px;
+    width: 40px;
 }
