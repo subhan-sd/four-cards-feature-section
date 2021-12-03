@@ -64,12 +64,15 @@ body{
 
 .card1{
     grid-area: card1;
+}
+
+.card1>.isi{
+    height: auto;
     background-color: #fff;
     border-radius: 3px;
 }
 
-
-.card1>.line1{
+.isi>.line1{
     /* margin: -20px -10px; */
     top: 0;
     height: 5px;
@@ -124,4 +127,11 @@ body{
     border-radius: 3px 3px 0 0;
     width: 100%;
     background-color: sandybrown;
+}
+
+.icon img{
+    /* float: right; */
+    margin: 20px 0 20px 0;
+    height: 60px;
+    width: 60px;
 }
