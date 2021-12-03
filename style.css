@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(img/3.jpg);
+    /* background-image: url(img/3.jpg); */
     background-size: cover;
 }
 
@@ -145,4 +145,96 @@ body{
     margin: 10px 0 10px 0;
     height: 40px;
     width: 40px;
+}
+/* Mobile Version */
+@media only screen and (max-width: 900px){
+
+    .card1>.isi{
+        box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
+        margin-top: 0%;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .card4>.isi{
+        box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
+        margin-top: 0%;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .detail{
+        font-size: 10px;
+        font-weight: 400;
+        color: #b3b3b3;
+        /* font-style: italic; */
+        padding: 0 10px;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        margin-bottom: 30px;
+}
+
+    .container{
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:"card1 card2"
+                            "card3 card4";
+        grid-gap: 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .content{
+        width: 85%;
+        height: 120%;
+        margin : 150px auto;
+        background-color: #fafafa;
+        /* height:550px; */
+    }
+
+
+    .card1>.isi{
+        box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
+        margin-top: 0%;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .card4>.isi{
+        box-shadow: 0px 6px 8px -2px rgb(206, 205, 205);
+        margin-top: 0%;
+        background-color: #fff;
+        border-radius: 3px;
+        margin-bottom: 40px;
+    }
+
+    .detail{
+        font-size: 10px;
+        font-weight: 400;
+        color: #b3b3b3;
+        /* font-style: italic; */
+        padding: 0 10px;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        margin-bottom: 30px;
+}
+
+    .container{
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        grid-template-areas:"card1 "
+                            "card2"
+                            "card3"
+                            "card4";
+        grid-gap: 20px 20px;
+    }
 }
