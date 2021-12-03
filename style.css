@@ -48,13 +48,36 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "card1 card2 card4"
                          "card1 card3 card4";
+    grid-gap: 10px 20px;
+}
+
+.detail-card{
+    font-size: 10px;
+    font-weight: 400;
+    color: #b3b3b3;
+    width: 85%;
+}
+
+.text{
+    padding: 10px 20px;
 }
 
 .card1{
     grid-area: card1;
-    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.card1>.line1{
+    /* margin: -20px -10px; */
+    top: 0;
+    height: 5px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
     background-color: skyblue;
 }
+
 
 .card2{
     grid-area: card2;
